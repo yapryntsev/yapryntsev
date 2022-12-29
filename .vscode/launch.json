@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Run your Executable",
+            "program": "${workspaceFolder}/test-project/.build/debug/HelloWorld",
+            "args": [],
+            "cwd": "${workspaceFolder}/test-project",
+            "preLaunchTask": "swift-build"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug HelloWorld (test-project)",
+            "program": "${workspaceFolder:yapryntsev}/test-project/.build/debug/HelloWorld",
+            "args": [],
+            "cwd": "${workspaceFolder:yapryntsev}/test-project",
+            "preLaunchTask": "swift: Build Debug HelloWorld (test-project)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release HelloWorld (test-project)",
+            "program": "${workspaceFolder:yapryntsev}/test-project/.build/release/HelloWorld",
+            "args": [],
+            "cwd": "${workspaceFolder:yapryntsev}/test-project",
+            "preLaunchTask": "swift: Build Release HelloWorld (test-project)"
+        }
+    ]
+}
