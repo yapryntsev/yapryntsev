@@ -1,6 +1,6 @@
 # Woah 👋🏼
 
-Lead iOS developer at [Raiffeisen](https://www.raiffeisen.ru)
+Lead iOS developer at [Simple](https://simple.life)
 
 - 🧐 [LinkedIn](http://linkedin.com/in/yapryntsev)
 - 🙋‍♂️ [StackOverflow](https://stackoverflow.com/users/7515379/alex-yapryntsev)
